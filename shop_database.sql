@@ -4,7 +4,8 @@ CREATE TABLE Products (
     price DECIMAL(10, 2),
     instock BOOLEAN
 );
-
+alter table Products
+add column bananbek
 CREATE TABLE Orders (
     orderid INT PRIMARY KEY,
     customerid INT,
